@@ -47,6 +47,14 @@ line (kept as prose guidance instead), its `docs/` pages, its `agents/openai.yam
 interface metadata, and its sibling skills (`grill-with-docs`, `triage`, `wayfinder`,
 `loop-me`, the `writing-*` family).
 
+## Harness adapters
+
+`skills/grill-me/references/harness-adapters.md` is this port's own research, not
+upstream's: tool names, per-call caps, subagent rules, skill-install paths and frontmatter
+quirks for eight harnesses, verified 2026-11-16 against primary sources (official docs, SDK
+types, tool schemas in source). Harness and product names belong to their owners; the table
+asserts facts about their public interfaces, no affiliation.
+
 ## Licence of this repository
 
 The adapted text is distributed under the upstream MIT terms (carried forward, not
